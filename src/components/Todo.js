@@ -7,9 +7,11 @@ class Todo extends Component {
     }
     render() {
         return (
-            <div>
-                <h2>{this.props.text.toString()} {this.props.priority.toString()} {this.props.dueDate.toString()}</h2>
-            </div>            
+            <tr>
+                <td>{this.props.text.toString()}</td>
+                <td>{this.props.priority.toString()}</td>
+                <td>{this.props.dueDate.toString()}</td>
+            </tr>            
         );
     }
 }
