@@ -37,12 +37,24 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .table {
   margin: auto;
   width: 50% !important;
   background-color: #333;
-} 
+}
+
+.form {
+  color: white;
+  margin: auto;
+  width: 50% !important;
+  background-size: cover;
+  background-color: #333;
+}
